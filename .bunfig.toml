@@ -1,0 +1,4 @@
+[install.scopes]
+"@fortawesome" = { token = "16E0C02C-9941-4234-80E7-636ABC846E5D", url = "https://npm.fontawesome.com/" }
+"@codedor" = { token = "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", url = "https://npm.pkg.github.com/" }
+
