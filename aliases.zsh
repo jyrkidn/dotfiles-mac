@@ -18,17 +18,17 @@ alias sites="cd $HOME/Sites"
 # Laravel & PHP & Composer
 alias phpunit="vendor/bin/phpunit"
 alias pest="vendor/bin/pest"
-alias a="valet php artisan"
-alias c="/usr/local/bin/composer"
-alias cu="/usr/local/bin/composer update"
-alias cr="/usr/local/bin/composer require"
-alias ci="/usr/local/bin/composer install"
-alias cda="/usr/local/bin/composer dump-autoload -o"
+alias a="herd php artisan"
+alias c="herd composer"
+alias cu="herd composer update"
+alias cr="herd composer require"
+alias ci="herd composer install"
+alias cda="herd composer dump-autoload -o"
 alias hostfile="sudo vim /etc/hosts"
-alias mfs='valet php artisan migrate:fresh --seed'
+alias mfs='herd php artisan migrate:fresh --seed'
 alias nah='git reset --hard;git clean -df'
-alias ad="valet php artisan dusk"
-alias adf="valet php artisan dusk --filter"
+alias ad="herd php artisan dusk"
+alias adf="herd php artisan dusk --filter"
 alias sshconfig="vim ~/.ssh/config"
 
 # JS
