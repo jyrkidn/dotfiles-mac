@@ -30,10 +30,10 @@ function commit() {
 }
 
 function p () {
-  vendor/bin/$(phpunit-or-pest) $*;
+  herd php vendor/bin/$(phpunit-or-pest) $*;
 }
 function pf () {
-  vendor/bin/$(phpunit-or-pest) --filter $*
+  herd php vendor/bin/$(phpunit-or-pest) --filter $*
 }
 function pg () {
   vendor/bin/$(phpunit-or-pest) --group $*

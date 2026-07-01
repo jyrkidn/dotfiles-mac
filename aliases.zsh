@@ -35,9 +35,20 @@ alias sshconfig="vim ~/.ssh/config"
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
 
+# Ghostty terminal config helpers
+alias gconfig="$HOME/.config/ghostty/gconfig"
+alias ghostty-warp="$HOME/.config/ghostty/interactive-config.sh"
+alias gconfig-interactive="$HOME/.config/ghostty/interactive-config.sh"
+alias gconfig-switch="$HOME/.config/ghostty/switch-config.sh"
+alias gcyber="$HOME/.config/ghostty/gconfig cyber"
+alias gminimal="$HOME/.config/ghostty/gconfig minimal"
+alias gcozy="$HOME/.config/ghostty/gconfig cozy"
+alias gpro="$HOME/.config/ghostty/gconfig pro"
+
 # Docker
 alias docker-composer="docker-compose"
 alias leaf="docker run -e LOCAL_USER_ID=$(id -u ${USER}) --rm -v ~/codedor/leaf:/home/leaf -v ~/.ssh/id_rsa:/home/leaf/.ssh/id_rsa:ro -it --init codedor/leaf:latest"
+alias takeout="docker run --rm -v /var/run/docker.sock:/var/run/docker.sock --add-host=host.docker.internal:host-gateway -it tighten/takeout:latest"
 
 # Git
 alias gst="git status"
