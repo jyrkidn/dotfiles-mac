@@ -39,7 +39,6 @@ Plus a few quality-of-life extras:
 | [`starship.toml`](./starship.toml) | Prompt configuration (the light-theme variant is `starship.toml.light`). |
 | [`Brewfile`](./Brewfile) | Every Homebrew formula & cask to install (`brew bundle`). |
 | [`fresh.sh`](./fresh.sh) | One-shot bootstrap for a new Mac (see setup below). |
-| [`clone.sh`](./clone.sh) | Clones my project repos into `~/Sites` (customise as needed). |
 | [`.macos`](./.macos) | Hundreds of `defaults write` macOS tweaks. Review before running. |
 | [`.mackup.cfg`](./.mackup.cfg) | [Mackup](https://github.com/lra/mackup) config — syncs app settings via iCloud. |
 | [`.gitignore_global`](./.gitignore_global) | Global gitignore patterns. |

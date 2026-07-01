@@ -46,7 +46,6 @@ brew 'composer'
 brew 'imagemagick'
 brew 'meilisearch'
 brew 'nginx'
-brew 'node'
 brew 'redis'
 brew 'yarn'
 
