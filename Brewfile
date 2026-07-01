@@ -5,6 +5,15 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 
+# Shell (see .zshrc — these power the prompt, autocomplete & history search)
+brew 'starship' # Prompt: directory + git branch + git changes
+brew 'zsh-autosuggestions' # Gray "ghost text" autocomplete from history
+brew 'zsh-syntax-highlighting' # Colours valid/invalid commands as you type
+brew 'zsh-completions' # Extra tab-completion definitions
+brew 'fnm' # Fast Node version manager (auto-switches per project)
+brew 'fzf' # Fuzzy finder: Ctrl-R history, Ctrl-T files, Alt-C cd
+brew 'zoxide' # Smart `z` command to jump to frequent directories
+
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
@@ -42,6 +51,7 @@ brew 'redis'
 brew 'yarn'
 
 # Apps
+cask 'herd' # Laravel Herd (PHP + valet-style local dev; replaces Valet)
 cask '1password'
 cask 'discord'
 cask 'docker'
